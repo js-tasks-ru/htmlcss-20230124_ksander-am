@@ -5,10 +5,24 @@
     --article-bg-color:#1319ff;
     --footer-bg-color: #bd00ff;
 }
-
+.container{
+    display: block;
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+}
 .header{
+    height: 60px;
     background-color: var(--header-bg-color);
 }
+.header__rubric{
+    height: 60px;
+}
+
 .navigation{
     background-color: var(--nav-bg-color);
+}
+.navigation__section{
+    height: 50px;
+
 }
