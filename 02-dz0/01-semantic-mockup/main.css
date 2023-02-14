@@ -1,0 +1,14 @@
+:root {
+    --header-bg-color: #ff0000;
+    --nav-bg-color: #ff9a00;
+    --main-bg-color: #04a242;
+    --article-bg-color:#1319ff;
+    --footer-bg-color: #bd00ff;
+}
+
+.header{
+    background-color: var(--header-bg-color);
+}
+.navigation{
+    background-color: var(--nav-bg-color);
+}
